@@ -1,0 +1,27 @@
+{
+  "name": "reacthooksparcel",
+  "version": "1.0.0",
+  "description": "A simple yet refined React Hooks setup using Parcel for bundling and a dev server. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "prod": "parcel build src/index.html"
+  },
+  "keywords": [
+    "React",
+    "Hooks",
+    "Parcel"
+  ],
+  "author": "Stefan Bobrowski",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.7"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
