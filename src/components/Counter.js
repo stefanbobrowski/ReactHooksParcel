@@ -5,7 +5,7 @@ const Counter = props => {
 
   useEffect(() => {
     console.log(`The count is ${count}!`);
-  });
+  }, [count]);
 
   return (
     <div>
